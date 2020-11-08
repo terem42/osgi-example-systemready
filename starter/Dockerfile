@@ -1,4 +1,4 @@
-FROM jeanblanchard/busybox-java:8
+FROM maslick/minimalka
 COPY target/app.jar /app/app.jar
 COPY logback.xml /app
 WORKDIR /app
